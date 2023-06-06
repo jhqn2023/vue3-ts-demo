@@ -20,7 +20,7 @@ function onClick() {
 <template>
   <h1>自定义指令</h1>
   <pre>
-    快速点击按钮，200ms内只出发一次事件
+    快速点击按钮，200ms内只出发一次事件666
   </pre>
   <el-button v-debounce-click:200="onClick" class="color">
     快速点击我！
